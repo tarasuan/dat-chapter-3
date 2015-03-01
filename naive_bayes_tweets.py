@@ -138,6 +138,7 @@ def get_training_and_validation_sets(feature_sets):
     taking an unbiased sample, and then splits the set of features into
     a training set and a validation set.
     """
+
     # randomly shuffle the feature sets
     random.shuffle(feature_sets)
 
